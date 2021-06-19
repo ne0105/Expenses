@@ -4,7 +4,7 @@ import NewExpense from "./components/NewExpense/NewExpense.js";
 
 const App = () => {
   const addExpenseHandler = (expense) => {
-    console.log("In App.js");
+    console.log("In App.js - parent");
     console.log(expense);
   };
   // return React.createElement(
